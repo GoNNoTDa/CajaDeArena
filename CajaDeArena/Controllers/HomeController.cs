@@ -19,5 +19,10 @@ namespace CajaDeArena.Controllers
         {
             return View();
         }
+
+        public ActionResult Chao()
+        {
+            return View();
+        }
     }
 }

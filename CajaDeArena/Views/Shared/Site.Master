@@ -8,9 +8,9 @@
 	<link href="<%= Url.Content("~/Content/kendo/2012.2.710/kendo.common.min.css") %>" rel="stylesheet" type="text/css" />
 	<link href="<%= Url.Content("~/Content/kendo/2012.2.710/kendo.dataviz.min.css") %>" rel="stylesheet" type="text/css" />
 	<link href="<%= Url.Content("~/Content/kendo/2012.2.710/kendo.blueopal.min.css") %>" rel="stylesheet" type="text/css" />
-	<script src="<%= Url.Content("~/Scripts/kendo/2012.2.710/jquery.min.js") %>"></script>
-	<script src="<%= Url.Content("~/Scripts/kendo/2012.2.710/kendo.all.min.js") %>"></script>
-	<script src="<%= Url.Content("~/Scripts/kendo/2012.2.710/kendo.aspnetmvc.min.js") %>"></script>
+	<script type="text/javascript" src="<%= Url.Content("~/Scripts/kendo/2012.2.710/jquery.min.js") %>"></script>
+	<script type="text/javascript" src="<%= Url.Content("~/Scripts/kendo/2012.2.710/kendo.all.min.js") %>"></script>
+	<script type="text/javascript" src="<%= Url.Content("~/Scripts/kendo/2012.2.710/kendo.aspnetmvc.min.js") %>"></script>
 </head>
 
 <body>
@@ -23,7 +23,8 @@
 					.Name("menu")
 					.Items(menu => {
 						menu.Add().Text("Home").Action("Index", "Home");
-						menu.Add().Text("About").Action("About", "Home");
+                        menu.Add().Text("About").Action("About", "Home");
+                        menu.Add().Text("Chao").Action("Chao", "Home");
 					})
 			%>
 		</header>
