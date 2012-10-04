@@ -194,6 +194,7 @@
     <Content Include="images\thumbnails\t_3.jpg" />
     <Content Include="images\thumbnails\t_4.jpg" />
     <Content Include="images\thumbnails\t_5.jpg" />
+    <Content Include="Scripts\html5.js" />
     <Content Include="Scripts\jquery.flexslider-min.js" />
     <Content Include="Scripts\jquery.prettyPhoto.js" />
     <Content Include="Scripts\kendo\2012.2.710\cultures\kendo.culture.af-ZA.min.js" />
