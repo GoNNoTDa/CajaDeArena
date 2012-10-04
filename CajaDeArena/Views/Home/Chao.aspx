@@ -8,4 +8,6 @@
 
 <h2>Chao</h2>
 
+<h2><%: ViewBag.Message %></h2>
+
 </asp:Content>

@@ -22,6 +22,7 @@ namespace CajaDeArena.Controllers
 
         public ActionResult Chao()
         {
+            ViewBag.Message = "hey you";
             return View();
         }
     }
